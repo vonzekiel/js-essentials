@@ -17,6 +17,8 @@ const experience = document.getElementById('experienceText').value
     document.getElementById('userProductChoice').innerHTML = productType;
     document.getElementById('userFeedback').innerHTML = feedback;
     document.getElementById('userExperience').innerHTML = experience;
+
+    //display the details after submission
     document.getElementById('userInfo').style.display = 'block';
 
     alert('Thank you for your valuable feedback');
